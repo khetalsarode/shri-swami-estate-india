@@ -53,11 +53,11 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in drop-shadow-sm">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in drop-shadow-lg">
             Your Trusted Partner in Real Estate
           </h1>
-          <p className="text-xl md:text-2xl text-foreground/80 mb-8 animate-fade-in drop-shadow-sm" style={{ animationDelay: "0.2s" }}>
-            Specializing in Agricultural Land, Industrial Spaces, Property Verification, and Society Conveyance Services in Jalgaon
+          <p className="text-xl md:text-2xl text-foreground/90 font-medium mb-8 animate-fade-in drop-shadow-md" style={{ animationDelay: "0.2s" }}>
+            Specializing in Agricultural Land, Industrial Spaces, and a wide range of property services in Jalgaon and the surrounding region.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button 

@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-background/80 text-sm">
-              Your trusted partner in real estate solutions across Jalgaon. Specializing in agricultural land, industrial spaces, and property services.
+              Your trusted partner in real estate solutions across Jalgaon and its surrounding areas. Specializing in agricultural land, industrial spaces, and property services.
             </p>
           </div>
 
