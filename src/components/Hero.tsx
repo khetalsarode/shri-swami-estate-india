@@ -53,10 +53,10 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in drop-shadow-sm">
             Your Trusted Partner in Real Estate
           </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <p className="text-xl md:text-2xl text-foreground/80 mb-8 animate-fade-in drop-shadow-sm" style={{ animationDelay: "0.2s" }}>
             Specializing in Agricultural Land, Industrial Spaces, Property Verification, and Society Conveyance Services in Jalgaon
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
@@ -72,7 +72,7 @@ const Hero = () => {
               size="lg" 
               variant="outline"
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
-              className="bg-background/10 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-background/20"
+              className="bg-background/90 backdrop-blur-sm border-primary text-foreground hover:bg-background"
             >
               Our Services
             </Button>

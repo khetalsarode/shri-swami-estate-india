@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Shri Swami Samarth Estate" className="h-12 w-12 object-contain" />
+            <img src={logo} alt="Shri Swami Samarth Estate" className="h-16 w-16 object-contain" />
             <div>
               <h1 className="text-xl font-bold text-primary">Shri Swami Samarth Estate</h1>
               <p className="text-xs text-muted-foreground">Your Trusted Real Estate Partner</p>
@@ -21,24 +21,16 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center gap-6">
-            <button 
-              onClick={() => scrollToSection("home")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Home
-            </button>
-            <button 
-              onClick={() => scrollToSection("services")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Services
-            </button>
-            <button 
+            <Button 
               onClick={() => scrollToSection("contact")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              size="lg"
+              className="bg-gradient-primary hover:opacity-90 transition-opacity shadow-medium"
             >
-              Contact
-            </button>
+              Get In Touch
+            </Button>
+          </div>
+          
+          <div className="md:hidden">
             <Button 
               onClick={() => scrollToSection("contact")}
               className="bg-gradient-primary hover:opacity-90 transition-opacity"
