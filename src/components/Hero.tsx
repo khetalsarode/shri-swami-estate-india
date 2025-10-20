@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import agriculturalLand from "@/assets/agricultural-land.jpg";
-import industrialSpace from "@/assets/industrial-space.jpg";
+import farmland from "@/assets/farmland.jpg";
+import industrialFacility from "@/assets/industrial-facility.jpg";
+import residentialPlots from "@/assets/residential-plots.jpg";
 import propertyVerification from "@/assets/property-verification.jpg";
-import societyConveyance from "@/assets/society-conveyance.jpg";
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
   
   const images = [
-    { src: agriculturalLand, title: "Agricultural Land" },
-    { src: industrialSpace, title: "Industrial Spaces" },
+    { src: farmland, title: "Agricultural Farmland" },
+    { src: industrialFacility, title: "Industrial Spaces" },
+    { src: residentialPlots, title: "Residential Plots" },
     { src: propertyVerification, title: "Property Verification" },
-    { src: societyConveyance, title: "Society Conveyance" },
   ];
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const Hero = () => {
               alt={image.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-hero" />
+            <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/50 to-background/80" />
           </div>
         ))}
       </div>
