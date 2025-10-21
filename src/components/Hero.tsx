@@ -5,6 +5,11 @@ import farmland from "@/assets/farmland.jpg";
 import industrialFacility from "@/assets/industrial-facility.jpg";
 import residentialPlots from "@/assets/residential-plots.jpg";
 import propertyVerification from "@/assets/property-verification.jpg";
+import shopForSell from "@/assets/shop-for-sell.jpg";
+import shopForRent from "@/assets/shop-for-rent.jpg";
+import flatForSell from "@/assets/flat-for-sell.jpg";
+import flatForRent from "@/assets/flat-for-rent.jpg";
+import bungalowForSell from "@/assets/bungalow-for-sell.jpg";
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -14,6 +19,11 @@ const Hero = () => {
     { src: industrialFacility, title: "Industrial Spaces" },
     { src: residentialPlots, title: "Residential Plots" },
     { src: propertyVerification, title: "Property Verification" },
+    { src: shopForSell, title: "Shop for Sale" },
+    { src: shopForRent, title: "Shop for Rent" },
+    { src: flatForSell, title: "Flat for Sale" },
+    { src: flatForRent, title: "Flat for Rent" },
+    { src: bungalowForSell, title: "Bungalow for Sale" },
   ];
 
   useEffect(() => {
