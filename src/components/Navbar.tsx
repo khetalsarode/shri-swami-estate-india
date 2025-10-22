@@ -13,9 +13,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Shri Swami Samarth Estate" className="h-16 w-16 object-contain" />
+            <img src={logo} alt="Paras Real Estate Properties" className="h-16 w-16 object-contain" />
             <div>
-              <h1 className="text-xl font-bold text-primary">Shri Swami Samarth Estate</h1>
+              <h1 className="text-xl font-bold text-primary">Paras Real Estate Properties</h1>
               <p className="text-xs text-muted-foreground">Your Trusted Real Estate Partner</p>
             </div>
           </div>

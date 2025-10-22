@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Shri Swami Samarth Estate" className="h-16 w-16 object-contain" />
+              <img src={logo} alt="Paras Real Estate Properties" className="h-16 w-16 object-contain" />
               <div>
-                <h3 className="text-xl font-bold">Shri Swami Samarth Estate</h3>
+                <h3 className="text-xl font-bold">Paras Real Estate Properties</h3>
               </div>
             </div>
             <p className="text-background/80 text-sm">
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 pt-8 text-center">
           <p className="text-background/60 text-sm">
-            © {new Date().getFullYear()} Shri Swami Samarth Estate. All rights reserved.
+            © {new Date().getFullYear()} Paras Real Estate Properties. All rights reserved.
           </p>
         </div>
       </div>
